@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondo.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica', sans-serif;
+    
+}
+a{
+    color: #E21209;
+    font-weight: 600;
+    text-decoration: none;
+}
+.wrapper{
+    padding-top: 50px;
+}
+.container{
+    width: 940px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos del formulario de inicio de sesión */
+.login-logo{
+    display: block;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.login-error{
+    width: 350px;
+    padding: 7px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(226, 18, 9, 0.7);
+    border: 1px solid #E21209;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+.login-message{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+.login-form{
+    padding: 15px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.7);
+}
+.login-form p{
+    margin:  0 0 15px 0;
+} 
+.login-form label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+.login-form__input{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+.login-form__btn{
+    border: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: #FFF;
+    background-color: #12A1F3;
+}
+
+/* Estilos de la página principal */
+.logo{
+    height: 63px;
+    margin: 0;
+}
+.user-logged{
+    text-transform: uppercase;
+    color: #E21209;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.toothbrush__dial{
+    text-align: center;
+}
+.toothbrush__image{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toothbrush__indicators{
+    text-align: center;
+}
+.toothbrush__indicator img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.toothbrush__indicator.active img{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
