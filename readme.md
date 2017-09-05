@@ -20,4 +20,5 @@ Luego crear las tablas e insertar los datos.
 ```
 $ php artisan migrate
 $ php artisan db:seed
+$ php artisan key:generate
 ```
